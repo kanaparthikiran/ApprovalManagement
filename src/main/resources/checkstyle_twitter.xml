@@ -46,11 +46,11 @@
     -->
     <!-- Following interprets the header file as regular expressions. -->
     <module name="RegexpHeader">
-        <!-- Property added by Hotwire -->
+        <!-- Property added by Twitter -->
         <!-- note that this property is in-line'ed in order to make the IDEA jetstyle plugin work  -->
         <!-- since it wasn't possible to set a property in the plugin to point it at a header file -->
         <property name="header"
-                  value="/*\n * Copyright 20\d\d(-20\d\d)? Hotwire. All Rights Reserved.\n *\n * This software is the proprietary information of Hotwire.\n * Use is subject to license terms.\n */\n"/>
+                  value="/*\n * Copyright 20\d\d(-20\d\d)? Twitter. All Rights Reserved.\n *\n * This software is the proprietary information of Twitter.\n * Use is subject to license terms.\n */\n"/>
         <property name="fileExtensions" value="java"/>
     </module>
 
@@ -61,7 +61,7 @@
     <module name="UniqueProperties"/>
     -->
     <module name="NewlineAtEndOfFile"/>
-    <!-- Commented out by Hotwire -->
+    <!-- Commented out by Twitter -->
     <!--
     <module name="Translation"/>
     -->
@@ -97,7 +97,7 @@
         <module name="SuppressWarnings"/>
         <module name="AnnotationLocation"/>
         -->
-        <!-- Added by Hotwire -->
+        <!-- Added by Twitter -->
         <module name="SuppressWarningsHolder"/>
 
 
@@ -109,7 +109,7 @@
         <module name="LeftCurly"/>
         <module name="NeedBraces"/>
         <module name="RightCurly">
-            <!-- Property added by Hotwire -->
+            <!-- Property added by Twitter -->
             <property name="option" value="alone"/>
         </module>
         <module name="AvoidNestedBlocks"/>
@@ -127,10 +127,10 @@
         <module name="InterfaceIsType"/>
         <module name="HideUtilityClassConstructor"/>
         <module name="HiddenField">
-            <!-- Property added by Hotwire -->
+            <!-- Property added by Twitter -->
             <property name="tokens" value="VARIABLE_DEF"/>
         </module>
-        <!-- Commented out by Hotwire -->
+        <!-- Commented out by Twitter -->
         <!--
         <module name="VisibilityModifier"/>
         <module name="DesignForExtension"/>
@@ -179,11 +179,11 @@
         <module name="MissingSwitchDefault"/>
         <module name="SimplifyBooleanExpression"/>
         <module name="SimplifyBooleanReturn"/>
-        <!-- Added by Hotwire -->
+        <!-- Added by Twitter -->
         <module name="DeclarationOrder"/>
         <module name="DefaultComesLast"/>
         <module name="UnnecessaryParentheses"/>
-        <!-- Commented out by Hotwire -->
+        <!-- Commented out by Twitter -->
         <!--
         <module name="AvoidInlineConditionals"/>
         <module name="MagicNumber"/>
@@ -200,7 +200,7 @@
         <module name="CustomImportOrder"/>
         -->
         <module name="AvoidStarImport">
-            <!-- Property added by Hotwire -->
+            <!-- Property added by Twitter -->
             <property name="excludes" value="java.io,java.net,java.util"/>
         </module>
         <module name="IllegalImport"/>
@@ -222,17 +222,17 @@
         -->
         <module name="JavadocType"/>
         <module name="JavadocMethod">
-            <!-- Property added by Hotwire -->
+            <!-- Property added by Twitter -->
             <property name="excludeScope" value="private"/>
             <property name="severity" value="warning"/>
         </module>
         <module name="JavadocVariable">
-            <!-- Property added by Hotwire -->
+            <!-- Property added by Twitter -->
             <property name="excludeScope" value="private"/>
             <property name="severity" value="warning"/>
         </module>
         <module name="JavadocStyle">
-            <!-- Property added by Hotwire -->
+            <!-- Property added by Twitter -->
             <property name="checkFirstSentence" value="false"/>
         </module>
 
@@ -245,7 +245,7 @@
         <module name="ClassFanOutComplexity"/>
         <module name="NPathComplexity"/>
         -->
-        <!-- Added by Hotwire -->
+        <!-- Added by Twitter -->
         <module name="CyclomaticComplexity">
             <property name="max" value="15"/>
         </module>
@@ -262,7 +262,7 @@
         <module name="AvoidEscapedUnicodeCharacters"/>
         -->
         <module name="TodoComment">
-            <!-- Property added by Hotwire -->
+            <!-- Property added by Twitter -->
             <property name="format" value="FIXME|TODO"/>
             <property name="severity" value="warning"/>
         </module>
@@ -273,10 +273,10 @@
             <property name="illegalPattern" value="true"/>
             <property name="message" value="Line has trailing spaces."/>
         </module>
-        <!-- Added by Hotwire -->
+        <!-- Added by Twitter -->
         <module name="Indentation"/>
         <module name="FileContentsHolder"/>
-        <!-- Commented out by Hotwire -->
+        <!-- Commented out by Twitter -->
         <!--
         <module name="FinalParameters"/>
         -->
@@ -340,7 +340,7 @@
         <module name="MethodCount"/>
         -->
         <module name="LineLength">
-            <!-- Property added by Hotwire -->
+            <!-- Property added by Twitter -->
             <property name="max" value="120"/>
         </module>
         <module name="MethodLength"/>
@@ -361,7 +361,7 @@
         <module name="NoWhitespaceAfter"/>
         <module name="NoWhitespaceBefore"/>
         <module name="OperatorWrap">
-            <!-- Property added by Hotwire -->
+            <!-- Property added by Twitter -->
             <property name="option" value="eol"/>
         </module>
         <module name="ParenPad"/>
