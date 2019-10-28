@@ -14,4 +14,13 @@ package com.twitter.util;
  */
 public class ValidationUtil {
 
+	/**
+	 * @param approvers
+	 * @param changedFiles
+	 * @return returns true if the parameter names are as expected
+	 */
+	public static boolean areValidParamNames(String approvers, String changedFiles) {
+		return ApprovalConstants.PARAM_APPROVERS.equalsIgnoreCase(approvers) 
+				&& ApprovalConstants.PARAM_CHANGED_FILES.equalsIgnoreCase(changedFiles);
+	}
 }

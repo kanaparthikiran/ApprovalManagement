@@ -6,7 +6,7 @@
  */
 package com.twitter.workflow;
 
-import com.twitter.beans.Validation;
+import com.twitter.beans.Approvals;
 
 /**
  * Implements Workflow Management logic.
@@ -22,7 +22,7 @@ public class WorkflowManager implements IWorkflowManager {
 	}
 
 	@Override
-	public Workflow createWorkflow(Validation validation) {
+	public Workflow createWorkflow(Approvals validation) {
 		return null;
 	}
 
