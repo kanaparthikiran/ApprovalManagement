@@ -1,4 +1,5 @@
 #!/bin/sh
 # Script to build the code and Run.
 mvn clean install
-java -jar target/ApprovalManagement-1.0.jar
+export JAVA_PROGRAM_ARGS=`echo "$@"`
+java -jar target/ApprovalManagement-1.0.jar "$JAVA_PROGRAM_ARGS"

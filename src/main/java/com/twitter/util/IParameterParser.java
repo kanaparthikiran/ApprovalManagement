@@ -6,7 +6,7 @@
  */
 package com.twitter.util;
 
-import com.twitter.beans.Approvals;
+import com.twitter.beans.ApprovalRequest;
 
 /*
  * Copyright 2019 Twitter. All Rights Reserved.
@@ -21,5 +21,5 @@ import com.twitter.beans.Approvals;
  * @since October 15, 2019
  */
 public interface IParameterParser {
-	Approvals parseParams(String[] params);
+	ApprovalRequest parseParams(String params);
 }

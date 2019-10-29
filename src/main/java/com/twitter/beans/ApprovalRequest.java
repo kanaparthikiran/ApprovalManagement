@@ -14,7 +14,7 @@ import java.util.List;
  * @author Kiran Kanaparthi
  * @since October 15, 2019
  */
-public class Approvals {
+public class ApprovalRequest {
 	
 	private List<String> approvers;
 	private List<String> files;

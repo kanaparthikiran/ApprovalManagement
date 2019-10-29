@@ -6,7 +6,7 @@
  */
 package com.twitter.workflow;
 
-import com.twitter.beans.Approvals;
+import com.twitter.beans.ApprovalRequest;
 
 /**
  * Followers implementation.
@@ -18,5 +18,7 @@ public interface IWorkflowManager {
 	
 	public boolean isValidWorkflow(Workflow workflow);
 	
-	public Workflow createWorkflow(Approvals validation);
+	public Workflow createWorkflow(ApprovalRequest validation);
+	
+	public void setNextWorkflow(Workflow workflow);
 }

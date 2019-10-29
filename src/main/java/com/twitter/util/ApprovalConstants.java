@@ -24,8 +24,11 @@ public class ApprovalConstants {
 	}
 	public static final int VALID_ARGUMENTS_COUNT = 4;
 	public static final String ILLEGAL_ARGUMENTS = "The Arguments count is less than four, Please provide valid number of arguments";
-	public static final String PARAM_APPROVERS = "--approvers";
+	public static final String PARAM_APPROVERS = "approvers";
 	public static final String PARAM_CHANGED_FILES = "--changed-files";
 	public static final String PARAM_NAME_INVALID = "The Parameter names are Invalid, Please enter Valid Parameter Names";
+
+	public static final String FILE_DEPENDENCIES = "DEPENDENCIES";
+	public static final String FILE_OWNERS = "OWNERS";
 
 }
